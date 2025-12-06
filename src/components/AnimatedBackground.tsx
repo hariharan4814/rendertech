@@ -217,7 +217,8 @@ export function AnimatedBackground() {
       />
 
       {/* Overlay to ensure text readability if needed (vignette) */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_#000000_100%)] opacity-40" />
+      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_#000000_100%)] opacity-70" />
     </div>
   );
 }
